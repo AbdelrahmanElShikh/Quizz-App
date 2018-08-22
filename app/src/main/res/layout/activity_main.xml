@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizzapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/textStle"
+            android:text="@string/qu1" />
+
+        <View style="@style/viewStyle" />
+
+        <ImageView
+            android:id="@+id/_true1"
+            style="@style/imageStyle"
+            android:src="@drawable/t" />
+
+        <ImageView
+            android:id="@+id/_false1"
+            style="@style/imageStyle"
+            android:src="@drawable/f" />
+
+        <RadioGroup
+            android:id="@+id/qu1RadioGroup"
+            style="@style/radioGroupStyle">
+
+            <RadioButton
+                style="@style/radioButtonSyle"
+                android:text="@string/radioButton1.1" />
+
+            <RadioButton
+                style="@style/radioButtonSyle"
+                android:text="@string/radioButton1.2" />
+
+            <RadioButton
+                style="@style/radioButtonSyle"
+                android:text="@string/radioButton1.3" />
+
+            <RadioButton
+                style="@style/radioButtonSyle"
+                android:text="@string/radioButton1.4" />
+        </RadioGroup>
+
+        <View style="@style/viewStyle" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/textStle"
+            android:text="@string/qu1" />
+
+        <View style="@style/viewStyle" />
+
+        <ImageView
+            android:id="@+id/_true2"
+            style="@style/imageStyle"
+            android:src="@drawable/t" />
+
+        <ImageView
+            android:id="@+id/_false2"
+            style="@style/imageStyle"
+            android:src="@drawable/f" />
+
+        <RadioGroup
+            android:id="@+id/qu2RadioGroup"
+            style="@style/radioGroupStyle">
+
+            <RadioButton
+                style="@style/radioButtonSyle"
+                android:text="@string/radioButton2.1" />
+
+            <RadioButton
+                style="@style/radioButtonSyle"
+                android:text="@string/radioButton2.2" />
+
+            <RadioButton
+                style="@style/radioButtonSyle"
+                android:text="@string/radioButton2.3" />
+
+            <RadioButton
+                style="@style/radioButtonSyle"
+                android:text="@string/radioButton2.4" />
+        </RadioGroup>
+
+        <View style="@style/viewStyle" />
+
+        <TextView
+            style="@style/textStle"
+            android:text="@string/qu3" />
+
+        <View style="@style/viewStyle" />
+
+        <ImageView
+            android:id="@+id/_true3"
+            style="@style/imageStyle"
+            android:src="@drawable/t" />
+
+        <ImageView
+            android:id="@+id/_false3"
+            style="@style/imageStyle"
+            android:src="@drawable/f" />
+
+        <CheckBox
+            android:id="@+id/checkBoxNew"
+            style="@style/checkBoxStyle"
+            android:text="@string/checkBox1" />
+
+        <CheckBox
+            android:id="@+id/checkBoxAbstract"
+            style="@style/checkBoxStyle"
+            android:text="@string/checkBox2" />
+
+        <CheckBox
+            android:id="@+id/checkBoxBoolean"
+            style="@style/checkBoxStyle"
+            android:text="@string/checkBox3" />
+
+        <CheckBox
+            android:id="@+id/checkBoxLayla"
+            style="@style/checkBoxStyle"
+            android:text="@string/checkBox4"
+            android:textSize="30sp" />
+
+        <View style="@style/viewStyle" />
+
+        <TextView
+            style="@style/textStle"
+            android:text="@string/qu4" />
+
+        <View style="@style/viewStyle" />
+
+        <ImageView
+            android:id="@+id/_true4"
+            style="@style/imageStyle"
+            android:src="@drawable/t" />
+
+        <ImageView
+            android:id="@+id/_false4"
+            style="@style/imageStyle"
+            android:src="@drawable/f" />
+
+        <EditText
+            android:id="@+id/editTextPrivate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:hint="@string/hint"
+            android:inputType="text"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/back"
+            android:onClick="total"
+            android:text="@string/button" />
+    </LinearLayout>
+</ScrollView>

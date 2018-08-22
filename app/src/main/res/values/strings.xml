@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">QuizzApp</string>
+    <string name="qu1">Which word doesn\'t fit?</string>
+    <string name="qu3">Which word is a keyword in Java?</string>
+    <string name="qu4">The ....... access modifier is accessible only within class.</string>
+    <string name="radioButton1.1">Smelling"</string>
+    <string name="radioButton1.2">Seeing</string>
+    <string name="radioButton1.3">Smiling</string>
+    <string name="radioButton1.4">Hearing</string>
+    <string name="radioButton2.1">Painting</string>
+    <string name="radioButton2.2">Poem</string>
+    <string name="radioButton2.3">Flower</string>
+    <string name="radioButton2.4">Song</string>
+    <string name="checkBox1">new</string>
+    <string name="checkBox2">abstract</string>
+    <string name="checkBox3">boolean</string>
+    <string name="checkBox4">layla</string>
+    <string name="accessModifier">private</string>
+    <string name="button">Submit</string>
+    <string name="hint">answer ...</string>
+</resources>
