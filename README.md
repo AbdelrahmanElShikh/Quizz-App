@@ -1,2 +1,2 @@
 # Quizz-App
-Udacity Android Nanodegree -  Quiz App 
+Android Basics Nanodegree Quizz-App
